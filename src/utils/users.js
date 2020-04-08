@@ -1,5 +1,6 @@
 const users =[];
 
+//adding users into bot
 const addUsers = (user) =>{
 
     username = user.username.trim().toLowerCase();
