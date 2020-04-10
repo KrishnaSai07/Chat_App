@@ -40,7 +40,7 @@ const addUsers = (user) =>{
 
 
 }
-
+//this end point is used when a user logs off
 const removeUser = (id) =>{
      const index = users.findIndex((user)=>{
          return user.id === id
@@ -51,7 +51,7 @@ const removeUser = (id) =>{
      }
 
 }
-
+//here we fetch the details of a particular user
 const getUser = (id) =>{
     const foundUser = users.find((user) =>{
         return user.id === id
